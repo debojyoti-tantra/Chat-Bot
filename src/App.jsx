@@ -10,7 +10,7 @@ function App() {
    async function generateAns() {
       setAns("loding...")
       const response = await axios({
-         url:`https://generativelanguage.googleapis.com/v1beta/models/gemini-1.5-flash-latest:generateContent?key=${import.meta.env.VITE_API_KEY}`,
+         url:`${import.meta.env.VITE_API_KEY}`,
          method:"post",
          data:{
             "contents":[
