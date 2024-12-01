@@ -5,7 +5,7 @@ import axios from 'axios';
 
 function App() {
   const [question, setQuestion] = useState("")
-  const [ans,setAns] = useState("Ask Me Anything"); 
+  const [ans,setAns] = useState("Ask Me Anything..."); 
   
    async function generateAns() {
       setAns("loding...")
