@@ -1,10 +1,16 @@
-# iTask : Vite + React Project
+
+# Chat-Bot : Vite + React Project
+
+|React|Vite|nodeJS|
+|--|--|--|
+| <img src="https://th.bing.com/th/id/OIP.K-4RqDC6zFrpAG31ayDDOgHaHa?dpr=1.9&pid=ImgDetMain" width=45px >| <img src="https://th.bing.com/th/id/OIP.OWUxNWKn_02KOQ7ltyGsjQHaHa?w=500&h=500&dpr=1.9&pid=ImgDetMain" width=45px > | <img src="https://academyclass.com/wp-content/uploads/2021/11/ACCL-NodeJS.png" width=45px > |
+
 
 ## `Clone this Repo`
 ```
 git clone https://github.com/debojyoti-tantra/Chat-Bot.git
 ```
-
+---
 ## `Resources`
 
 ### Run the command to create a React App using vite:
@@ -89,7 +95,7 @@ VITE_API_KEY=  your api key
 
 - use this:
 ```
-url:`https://generativelanguage.googleapis.com/v1beta/models/gemini-1.5-flash-latest:generateContent?key=${import.meta.env.VITE_API_KEY}`,
+url:`${import.meta.env.VITE_API_KEY}`,
 ```
 
 ### start the server
